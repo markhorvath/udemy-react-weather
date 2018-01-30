@@ -3,6 +3,10 @@ import { FETCH_WEATHER } from '../actions/index';
 export default function(state = [], action) {
   switch (action.type) {
     case FETCH_WEATHER:
+      if (action.error) {
+        alert("Oops!  City not found, please check spelling.");
+        break
+      }
       //This works for manipulating state (unlike push) and puts the new data at the end of the array
       // return state.concat([action.payload.data]);
 
