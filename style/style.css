@@ -15,3 +15,14 @@ td:first-of-type, td:first-of-type > div {
   height: 200px;
   width: 250px;
 }
+
+h1 {
+  border-radius: 10px;
+  background: #FFFF66;
+  color: #1E90FF !important;
+  text-align: center;
+}
+
+button {
+  background-color: #87CEFA !important;
+}

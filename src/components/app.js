@@ -8,6 +8,7 @@ export default class App extends Component {
     return (
       <div>
         <SearchBar />
+        <h1>Get Your 5 Day Weather Forecast for Any US City</h1>
         <WeatherList />
       </div>
     );
